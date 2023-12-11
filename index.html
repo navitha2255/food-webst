@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+    
+  <header>
+    <div class="header_container">
+      <div class="navbar">
+        <div class="logo">
+        
+        </div>
+
+        <nav>
+          <ul id="menuitem">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="index.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="account.html">ACCOUNT</a></li>
+          </ul>
+        </nav>
+        <span class="fa fa-bars" onclick="menutoggle()"></span>
+
+        <button class="btn btn1">Order Online</button>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menuitem.style.maxHeight == '0px') {
+        menuitem.style.maxHeight = "200px"
+      } else {
+        menuitem.style.maxHeight = "0px"
+      }
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
+
+
+  <section class="home">
+    <div class="img"> </div>
+    <div class="container">
+      <div class="left">
+        <h4> Discover Your Teste </h4><br>
+        <h1>We Belive Good Food <br> Offer Great Smile</h1> <br>
+        <p>  food is not just eating energy<br>its an experience</p>
+        <button class="btn btn2">Reservation</button>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="details">
+    <div class="container">
+      <div class="content flex">
+        <div class="left">
+          <div class="top">
+            <h4> Discover Your Teste </h4><br>
+            <h1>We Provide Good Food For Your Family!</h1>
+            <p> Dive into a world of flavors with Taste Haven. From savory to sweet, our curated recipes and cooking tips cater to all tastes. Join us in the joy of cooking!</p>
+          </div>
+
+          <div class="bottom  flex">
+            <div class="img flex">
+              <div class="box-img">
+                <img src="https://th.bing.com/th/id/OIP.Q4Y6irS_ObEEzArKZCLsLQHaE8?w=243&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+              </div>
+              <div class="text">
+                <p>30% OFF UPTO $75</p>
+              </div>
+            </div>
+            <div class="img flex">
+              <div class="box-img">
+                <img src="https://th.bing.com/th/id/OIP.jJI3bTJ-diLfKDHb9-vwmwHaE8?w=283&h=189&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+              </div>
+              <div class="text">
+                <p>laugher is brightest where food is best.</p>
+              </div>
+            </div>
+          </div>
+          <div class="bottom flex">
+            <div class="img flex">
+              <div class="box-img">
+                <img src="https://th.bing.com/th/id/OIP.pG7uuJO5MinDP7hMD0lWogHaFj?w=251&h=189&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+              </div>
+              <div class="text">
+                <p>First we eat breakfast then we change the world.</p>
+              </div>
+            </div>
+            <div class="img flex">
+              <div class="box-img">
+                <img src="https://th.bing.com/th/id/OIP.OM_YQDFEEZ6NPj0XapYwFgHaEo?w=284&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+              </div>
+              <div class="text">
+                <p>You dont need a silver fork to eat good food.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+            <img src="https://th.bing.com/th/id/OIP.2g-dT3nt55YRPRmOlkYxsQHaE8?w=254&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="offer">
+    <div class="container">
+      <div class="top">
+        <h4>Our Offered Menu</h4>
+        <h1>Some Trendy And Popular <br> Courses Offerd</h1>
+
+        <div class="menu">
+          <ul>
+            <li class="active">Special</li>
+            <li>Lunch</li>
+            <li>Breakfast</li>
+            <li>Dinner</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="image flex">
+      <div class="img_box">
+        <img src="https://th.bing.com/th/id/OIP.v4NQJ6ITn1zDR2zOhqKTZQHaE8?w=215&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+        <div class="overlay">
+          <div class="text">
+            <h4>$50</h4>
+            <h1>Delicious Food</h1>
+            <p>food tastes better when you eat it with your family.</p>
+            <button class="btn btn2">ORDER NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="img_box">
+        <img src="https://th.bing.com/th/id/OIP.uYGT0Gyi-POpC8BRvKFhywHaFj?w=194&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+        <div class="overlay">
+          <div class="text">
+            <h4>$50</h4>
+            <h1>Delicious Food</h1>
+            <p>
+            Take advantage of this special offer before it expires!</p>
+            <button class="btn btn2">ORDER NOW</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="img_box2 flex">
+        <div class="img_box">
+          <img src="https://th.bing.com/th/id/OIP.4P7Y_o6pwxcUcnkmy1W4TgHaEK?w=301&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+          <div class="overlay">
+            <div class="text">
+              <h4>$50</h4>
+              <h1>Delicious Food</h1>
+              <p>
+                Take advantage of this special offer before it expires!.</p>
+              <button class="btn btn2">ORDER NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="img_box ">
+          <img src="https://th.bing.com/th/id/OIP.jbFmJfl_wG2iYf2sYSDodgHaEo?w=317&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+          <div class="overlay">
+            <div class="text">
+              <h4>$50</h4>
+              <h1>Delicious Food</h1>
+              <p>
+                Take advantage of this special offer before it expires!.</p>
+              <button class="btn btn2">ORDER NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="about">
+    <div class="container flex">
+      <div class="left">
+        <img src="https://th.bing.com/th/id/OIP.mLg2psW5bI6LnmK9HB-byQHaE6?w=266&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+      </div>
+      <div class="right">
+        <h4>About Our Restaurant</h4> <br>
+        <h1>We Provide Good Food For Your Family!</h1><br>
+        <p>Restaurant is a charming culinary haven that seamlessly blends modern elegance with a warm and inviting atmosphere</p>
+        <p>Nestled in the heart of the city, this culinary gem boasts a diverse menu inspired by global flavors, expertly curated by our talented chefs..</p>
+        <br>
+        <button class="btn btn2">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="book">
+    <div class="container">
+      <div class="text">
+        <h4>About Our Restaurant</h4>
+        <h1>Book A Table</h1>
+
+        <form>
+          <div class="input flex">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="Person">
+          </div>
+          <div class="input flex">
+            <i class="fa fa-calendar"></i>
+            <input type="date" placeholder="Date">
+          </div>
+          <div class="input flex">
+            <i class="fa fa-clock-o"></i>
+            <input type="time" placeholder="Time">
+          </div>
+          <div class="input">
+            <button class="btn btn1">Book Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="services">
+    <div class="container">
+      <h4>Services We Offer</h4> <br>
+      <h1>Our Best Services</h1> <br>
+
+      <div class="box flex">
+        <div class="item">
+          <img src="https://th.bing.com/th/id/OIP.d9aLd-7_HzPbdHZbm_ichgHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt=""> <br>
+          <h2>Best Chef</h2> <br>
+          <p>"Act quickly – limited food available for your order. Thank you!"
+
+
+
+
+
+            .</p>
+        </div>
+        <div class="item active">
+          <img src="https://th.bing.com/th/id/OIP.snfVhl90AOCBKoKzDcZYpgHaKX?w=202&h=282&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt=""> <br>
+          <h2>Quality Food</h2> <br>
+          <p>"Act quickly – limited food available for your order. Thank you!"
+
+
+
+
+
+            .</p>
+        </div>
+        <div class="item">
+          <img src="https://th.bing.com/th/id/OIP.0FHGH4L3yZO_yHfqVu145QHaEK?w=304&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt=""> <br>
+          <h2>Perfect Cook</h2> <br>
+          <p>."Act quickly – limited food available for your order. Thank you!"
+
+
+
+
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="blog">
+    <div class="container">
+      <h4>Our New Blog News</h4> <br>
+      <h1>Our Rescent News</h1> <br>
+
+      <div class="box flex">
+        <div class="item">
+          <img src="https://th.bing.com/th/id/OIP.D8qTqVfBrB6JQSMNazm_rwHaE8?w=291&h=194&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt=""> <br>
+          <div class="para">
+            <p>25 DEC, 2021</p>
+            <h2>Addiction When Food Plate Becomes</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://th.bing.com/th/id/OIP.yR8-a1bMugSOITeoNEsxKQHaE8?w=296&h=198&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt=""> <br>
+          <div class="para">
+            <p>25 DEC, 2021</p>
+            <h2>Addiction When Food Plate Becomes</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://th.bing.com/th/id/OIP.Q3tm-plVhDV9mQXlaLVrbAHaE8?w=281&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt=""> <br>
+          <div class="para">
+            <p>25 DEC, 2021</p>
+            <h2>Addiction When Food Plate Becomes</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="content">
+        <div class="logo">
+          <img src="https://th.bing.com/th/id/OIP.9nN-hVYs3d61Tgm5mr1b9QHaE6?w=306&h=202&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+        </div>
+
+        <div class="nav">
+          <h2> Navigation</h2>
+          <ul>
+            <li>HOME </li>
+            <li> PRODUCTS </li>
+            <li> ABOUT </li>
+            <li> CONTACT </li>
+            <li> ACCOUNT</li>
+          </ul>
+        </div>
+
+        <div class="link">
+          <h2>Useful Links</h2>
+          <ul>
+            <li>Registration </li>
+            <li>Login </li>
+            <li> Policy </li>
+            <li>Terms & Conditions </li>
+          </ul>
+        </div>
+
+        <div class="insta">
+          <h2>Instagram Feed</h2>
+          <div class="img">
+            <div class="box">
+              <img src="https://th.bing.com/th/id/OIP.iqx82SiBdRlsJBnGuHOTkAHaLG?w=202&h=303&c=7&r=0&o=5&dpr=1.1&pid=1.7">
+            </div>
+            <div class="box">
+              <img src="https://th.bing.com/th/id/OIP.NGKR8AsV6EMhTAc7vZIuEwHaE7?w=306&h=197&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+            </div>
+            <div class="box">
+              <img src="https://th.bing.com/th/id/OIP.SNKJn1Q4oLr0MNY33oGzyAHaEK?w=236&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+            </div>
+            <div class="box">
+              <img src="https://th.bing.com/th/id/OIP.MeJGG34K_GDRpvIee5bbygHaEo?w=292&h=182&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+            </div>
+            <div class="box">
+              <img src="https://th.bing.com/th?id=OIP.maQpFJiRuDMauaTZ3N7KiQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" alt="">
+            </div>
+            <div class="box">
+              <img src="https://th.bing.com/th/id/OIP.q1wv_4hUTG2nIloLMSe9HwHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <section class="footer">
+    <div class="container">
+      <div class="legal flex">
+        <p>Copyright navitha 2023 Copyright Holder All Rights Reserved.</p>
+        <div class="icon flex">
+          <h2>Follow Us</h2>
+          <hr>
+          <div class="box flex">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
